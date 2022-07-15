@@ -4,114 +4,80 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The project</title>
+    <title>Adam_Stankiewicz</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@0,400;1,700&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <table cellspacing="10px">
-      <tr>
-        <td>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud" />
+      <h1>I'm Adam</h1>
+      <h2>a web developer</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud" />
+      <img src="images/mountain.png" alt="mountain-img" />
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img class="adams-pic" src="images/img.png" alt="adam's-picture" />
+        <h2>Hello.</h2>
+        <p class="intro">
+          I am a self-taught web developer. I'm undertaking a wonderfull
+          HTML;CSS;JS course at Udemy and I'm expecting a boost in my
+          programming skills.
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
           <img
-            src="img.png"
-            alt="adam's picture"
-            style="width: 20%; height: 20%"
+            class="skill-image"
+            src="images/travel.png"
+            alt="english-attributes"
           />
-        </td>
-        <td>
-          <h1>Adam Stankiewicz</h1>
-          <h2>HTML , CSS, JS Web Developer</h2>
-        </td>
-      </tr>
-    </table>
+          <h3>English</h3>
+          <p>
+            I've graduated an English teachers' training college, where I've
+            mastered a good level of written and spoken English skills.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img
+            class="skill-image-coding"
+            src="images/coding.png"
+            alt="coding-icon"
+          />
+          <h3>
+            <p>HTML, CSS, JavaScript, BootStrap</p>
+            <!--<ul >
+              <li style="list-style-type: none">HTML</li>
+              <li style="list-style-type: none">CSS</li>
+              <li style="list-style-type: none">JavaScript</li>
+            </ul>-->
+          </h3>
+          <p>The skills above are still in progress.</p>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3 class="outro">follow my progress in my social media 🔽</h3>
+        <p></p>
+        <a class="btn" href="mailto:adam.stankiewicz87@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
 
-    <hr />
-    <h3>Work Experience</h3>
-
-    <table cellspacing="10px">
-      <thead>
-        <tr>
-          <th>DATES</th>
-          <th>WORK</th>
-        </tr>
-      </thead>
-      <tr>
-        <td>2021-now</td>
-        <td>Salesman at Volvo dealership</td>
-      </tr>
-      <tr>
-        <td>2018-2021</td>
-        <td>Salesman at Hyundai dealership</td>
-      </tr>
-      <tr>
-        <td>2016-2018</td>
-        <td>Salesman at Opel dealership</td>
-      </tr>
-      <tr>
-        <td>2012-2016</td>
-        <td>
-          Self Employed at painting and decorating industry, Sydney, NSW,
-          Australia
-        </td>
-      </tr>
-      <tr>
-        <td>2010-2012</td>
-        <td>Instructor and Manager at Mc Donald's franchise</td>
-      </tr>
-    </table>
-    <hr />
-    <h3>Education</h3>
-    <table cellspacing="10px">
-      <tr>
-        <td>2007-2010</td>
-        <td>
-          Teacher's Training College of foreign languages - English departament
-          (Bachelor degree)
-        </td>
-      </tr>
-    </table>
-    <hr />
-    <h3>SKILLS</h3>
-    <table cellspacing="10px">
-      <tr>
-        <td>
-          <table>
-            <tr>
-              <td>English</td>
-              <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>HTML</td>
-              <td>⭐</td>
-            </tr>
-          </table>
-        </td>
-        <td>
-          <table>
-            <tr>
-              <td>CSS</td>
-              <td>⭐</td>
-            </tr>
-            <tr>
-              <td>JavaScript</td>
-              <td>⭐</td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-
-    <hr />
-    <h3>CONTACT ME</h3>
-    <form
-      action="mailto:adam.stankiewicz87@gmail.com"
-      method="post"
-      enctype="text/plain"
-    >
-      <label>Your name: </label>
-      <input type="text" name="yourName" /><br />
-      <label>Your email: </label>
-      <input type="email" name="yourEmail" /><br />
-      <textarea name="name" id="" cols="30" rows="10"></textarea>
-      <input type="submit" name="" /><br />
-    </form>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p class="copyright">© 2022 Adam Stankiewicz.</p>
+    </div>
   </body>
 </html>
